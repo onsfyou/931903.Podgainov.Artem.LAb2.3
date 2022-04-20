@@ -51,10 +51,6 @@ namespace LAb3.Models
             UserAnswer.Clear();
             QuestionNumber = -1;
         }
-        //public int QuesNumber()
-        //{
-        //    return QuestionNumber;
-        //}
         public bool IsValid()
         {
             return (RightAnswer.Count == UserAnswer.Count);
